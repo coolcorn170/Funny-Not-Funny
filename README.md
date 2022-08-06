@@ -18,4 +18,4 @@ I then retrained the AI with train.py and the dataset I created and exported the
 3. Clone the repository.
 4. Type: NET=Funny-Not-Funny/models/FunnyNotFunny
 5. Then Type: DATASET=Funny-Not-Funny/data/Funny_Not_Funny
-6. Finally issue the command: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/image.jpg image.jpg
+6. Finally issue the command: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/image.jpg imageProcessed.jpg
