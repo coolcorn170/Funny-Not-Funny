@@ -13,7 +13,7 @@ I then retrained the AI with train.py and the dataset I created and exported the
 
 # Running the project
 
-1. before running the project make sure you have the Jetson-inference project, docker, and imagenet.py loaded onto your nano.
+1. before running the project make sure you have the [Jetson-inference](https://github.com/dusty-nv/jetson-inference) project and imagenet.py loaded onto your nano. Please refer to the Jetson Inference project when setting up nano.
 2. cd into the Jetson-Inference/python/trianing/classification.
 3. Create a folder called data.
 4. Extract the Funny_Not_Funny.tar.gz file, and add the resulting Funny_Not_Funny folder to the data folder.
