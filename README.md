@@ -15,11 +15,7 @@ I then retrained the AI with train.py and the dataset I created and exported the
 
 1. before running the project make sure you have the [Jetson-inference](https://github.com/dusty-nv/jetson-inference) project and imagenet.py loaded onto your nano. Please refer to the Jetson Inference project when setting up nano.
 2. cd into the Jetson-Inference/python/trianing/classification.
-3. Create a folder called data.
-4. Extract the Funny_Not_Funny.tar.gz file, and add the resulting Funny_Not_Funny folder to the data folder.
-5. add the models folder from the GitHub.
-6. Go back into the classification folder
-7. Type: NET=models/FunnyNotFunny
-8. Type: DATASET=data/Funny_Not_Funny
-9. Type: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/funny/f.jpeg funny.jpeg
-10. (optional) Test another image with: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/boring/b.jpeg boring.jpeg
+3. clone the repository.
+4. Type: NET=Funny-Not-Funny/models/FunnyNotFunny
+5. Type: DATASET=Funny-Not-Funny/data/Funny_Not_Funny
+6. Type: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/image.jpg
