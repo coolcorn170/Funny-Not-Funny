@@ -5,7 +5,7 @@ an image is considered an 'animal meme' image or a 'normal portrait' image, henc
 
 # The Fundamentals and Beforehand
 
-This network is a retrained ResNet18 network, specifically trained to detect a funny animal/pet meme image vs a typical human image.
+This network is a retrained ResNet18 network, specifically trained to detect a funny animal/pet meme image vs a typical human image, the idea being that this AI could sort through photos on a device such as a phone and sort between meme photos and normal photos.
 I created my own dataset of 180 total images, 150 of them training images and 30 of them verification images.
 Of the 150 training images, 75 of them popular pet meme images, and the other 75 normal stock human images.
 Of the 30 verification images, 15 of them are different popular pet meme images, and the other 15 different normal stock human images.
