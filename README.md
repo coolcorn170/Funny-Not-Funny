@@ -16,7 +16,7 @@ Running the project
 1. before running the project make sure you have the Jetson-inference project and docker loaded onto your nano.
 2. cd into the Jetson-Inference/python/trianing/classification.
 3. make the folders data and models.
-4. Inside the data folder, add the Funny_Not_Funny dataset to the directory
+4. Inside the data folder, add the Funny_Not_Funny folder to the directory
 5. Go back to the classification folder and cd into the models folder.
 6. Add the FunnyNotFunny folder into the models folder.
 7. Go back into the classification folder
